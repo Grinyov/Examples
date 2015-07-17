@@ -24,7 +24,7 @@ public class DemoOverload {
         printArgCount(i, i, i);
         printArgCount(i, 4, 71);
         printArgCount(i); // будет вызван метод 1
-        printArgCount(5, 7);
+        //printArgCount(5, 7);
 // printArgCount(); // неопределенность при перегрузке!
     }
 
