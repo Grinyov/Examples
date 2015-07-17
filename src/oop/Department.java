@@ -2,6 +2,8 @@ package oop;
 
 /**
  * Created by Grinyov Vitaliy on 15.07.15.
+ *
+ * использование логических блоков при объявлении класса
  */
 public class Department {
     {
