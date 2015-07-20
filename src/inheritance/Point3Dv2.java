@@ -3,7 +3,7 @@ package inheritance;
 /**
  * Created by Grinyov Vitaliy on 20.07.15.
  */
-public class Point3Dv2 extends Point1Dv2 {
+public class Point3Dv2 extends Point2Dv2 {
 
     private int z;
     public Point3Dv2(int x, int y, int z) {

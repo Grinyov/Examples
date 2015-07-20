@@ -5,7 +5,7 @@ package inheritance;
  */
 public class Point2Dv2 extends Point1Dv2 {
 
-    private int y;
+    protected int y;
     public Point2Dv2(int x, int y) {
         super(x);
         this.y = y;

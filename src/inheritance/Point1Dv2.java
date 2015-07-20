@@ -4,7 +4,7 @@ package inheritance;
  * Created by Grinyov Vitaliy on 20.07.15.
  */
 public class Point1Dv2 {
-    private int x;
+    protected int x;
     public Point1Dv2(int x) {
         this.x = x;
     }
