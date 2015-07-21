@@ -9,6 +9,6 @@ public class ExamRunner {
         Exam<Double> md2 = new Exam<Double>(71.45D, "Progr");// 71.5d
         System.out.println(md1.equalsToMark(md2));
         Exam<Integer> mi = new Exam<Integer>(71,"Progr");
-// md1.equalsToMark(mi); // ошибка компиляции: несовместимые типы
+// md1.equalsToMark(mi); // РѕС€РёР±РєР° РєРѕРјРїРёР»СЏС†РёРё: РЅРµСЃРѕРІРјРµСЃС‚РёРјС‹Рµ С‚РёРїС‹
     }
 }

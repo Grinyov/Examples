@@ -3,7 +3,7 @@ package enums;
 /**
  * Created by green on 18.07.2015.
  *
- * класс для создания неизменяемых объектов
+ * РєР»Р°СЃСЃ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ РЅРµРёР·РјРµРЅСЏРµРјС‹С… РѕР±СЉРµРєС‚РѕРІ
  */
 public class ImmutableObject {
     private String name;

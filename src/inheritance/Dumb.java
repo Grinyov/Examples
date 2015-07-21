@@ -8,13 +8,13 @@ public class Dumb {
     { this.id = 6; }
     int id;
     Dumb() {
-        System.out.println("конструктор класса Dumb ");
-// вызов потенциально полиморфного метода - плохо
+        System.out.println("РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР° Dumb ");
+// РІС‹Р·РѕРІ РїРѕС‚РµРЅС†РёР°Р»СЊРЅРѕ РїРѕР»РёРјРѕСЂС„РЅРѕРіРѕ РјРµС‚РѕРґР° - РїР»РѕС…Рѕ
         id = this.getId();
         System.out.println(" id=" + id);
     }
     int getId() { // 1
-        System.out.println("getId() класса Dumb ");
+        System.out.println("getId() РєР»Р°СЃСЃР° Dumb ");
         return id;
     }
 }

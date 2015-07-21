@@ -5,13 +5,13 @@ package inheritance;
  */
 public class CreditCardAction extends CardAction {
 
-    // поля, конструкторы, методы
-    public boolean checkCreditLimit() { // собственный метод
+    // РїРѕР»СЏ, РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹, РјРµС‚РѕРґС‹
+    public boolean checkCreditLimit() { // СЃРѕР±СЃС‚РІРµРЅРЅС‹Р№ РјРµС‚РѕРґ
         return true; // stub
     }
-    @Override // аннотация указывает на полиморфную природу метода
-    public void doPayment(double amountPayment) { // переопределенный метод
-// реализация
+    @Override // Р°РЅРЅРѕС‚Р°С†РёСЏ СѓРєР°Р·С‹РІР°РµС‚ РЅР° РїРѕР»РёРјРѕСЂС„РЅСѓСЋ РїСЂРёСЂРѕРґСѓ РјРµС‚РѕРґР°
+    public void doPayment(double amountPayment) { // РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РјРµС‚РѕРґ
+// СЂРµР°Р»РёР·Р°С†РёСЏ
         System.out.println("complete from credit card");
     }
 }

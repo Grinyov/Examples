@@ -10,7 +10,7 @@ public class TestAction {
         AbstractQuest[ ] test = new AbstractQuest[NUMBER_QUESTS];
         for (int i = 0; i < test.length; i++) {
             int mode = new Random().nextInt(maxMode); // stub
-/* çàïîëíåíèå ìàññèâà îáúåêòàìè-âîïðîñàìè */
+/* Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð¾Ð±ÑŠÐµÐºÑ‚Ð°Ð¼Ð¸-Ð²Ð¾Ð¿Ñ€Ð¾ÑÐ°Ð¼Ð¸ */
             test[i] = QuestFactory.getQuestFromFactory(mode);
         }
         return test;
@@ -18,7 +18,7 @@ public class TestAction {
     public int checkTest(AbstractQuest[] test) {
         int counter = 0;
         for (AbstractQuest s : test) {
-// âûçîâ ïîëèìîðôíîãî ìåòîäà
+// Ð²Ñ‹Ð·Ð¾Ð² Ð¿Ð¾Ð»Ð¸Ð¼Ð¾Ñ€Ñ„Ð½Ð¾Ð³Ð¾ Ð¼ÐµÑ‚Ð¾Ð´Ð°
             counter = s.check(new Answer()) ? ++counter : counter;
         }
         return counter;

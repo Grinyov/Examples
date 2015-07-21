@@ -5,6 +5,6 @@ package inheritance;
  */
 public class SubStatic extends BaseStatic{
     public static void go() {
-        System.out.println("метод из Sub");
+        System.out.println("РјРµС‚РѕРґ РёР· Sub");
     }
 }

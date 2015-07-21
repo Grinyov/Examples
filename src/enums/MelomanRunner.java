@@ -6,7 +6,7 @@ package enums;
 public class MelomanRunner {
 
     public static void main(String[] args) {
-        MusicStyle ms = MusicStyle.CLASSIC; // инициализация
+        MusicStyle ms = MusicStyle.CLASSIC; // РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ
         System.out.print(ms);
         switch (ms) {
             case JAZZ:

@@ -3,15 +3,15 @@ package enums;
 /**
  * Created by green on 18.07.2015.
  *
- * конструкторы и члены перечисления
+ * РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё С‡Р»РµРЅС‹ РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ
  *
  */
 public enum TaxiStation {
     MERCEDES(10), TOYOTA(7), VOLVO;
-    private int freeCabs; // поле класса перечисления
-    TaxiStation() { // конструктор класса перечисления
+    private int freeCabs; // РїРѕР»Рµ РєР»Р°СЃСЃР° РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ
+    TaxiStation() { // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР° РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ
     }
-    TaxiStation(int cabs) { // конструктор класса перечисления
+    TaxiStation(int cabs) { // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР° РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ
         freeCabs = cabs;
     }
     public int getFreeCabs() {

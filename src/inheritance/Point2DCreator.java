@@ -5,7 +5,7 @@ package inheritance;
  */
 public class Point2DCreator extends Point1DCreator {
     @Override
-    public Point2Dv2 createPoint() { // метод - подставка
+    public Point2Dv2 createPoint() { // РјРµС‚РѕРґ - РїРѕРґСЃС‚Р°РІРєР°
         System.out.println("Point2D");
         return new Point2Dv2(2, 5);
     }

@@ -3,23 +3,23 @@ package oop;
 /**
  * Created by green on 17.07.2015.
  *
- * использование метасимвола в параметризованном классе
+ * РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РјРµС‚Р°СЃРёРјРІРѕР»Р° РІ РїР°СЂР°РјРµС‚СЂРёР·РѕРІР°РЅРЅРѕРј РєР»Р°СЃСЃРµ
  *
  */
 public class Exam<T extends Number> {
     private String name;
-    private T mark; // параметр поля
-    public Exam(T mark, String name) { // параметр конструктора
+    private T mark; // РїР°СЂР°РјРµС‚СЂ РїРѕР»СЏ
+    public Exam(T mark, String name) { // РїР°СЂР°РјРµС‚СЂ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
         this.name = name;
         this.mark = mark;
     }
-    public T getMark() { // параметр метода
+    public T getMark() { // РїР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°
         return mark;
     }
     private int roundMark() {
-        return Math.round(mark.floatValue()); // метод класса Number
+        return Math.round(mark.floatValue()); // РјРµС‚РѕРґ РєР»Р°СЃСЃР° Number
     }
-    public boolean equalsToMark(Exam<T> ob) { // параметр метода
+    public boolean equalsToMark(Exam<T> ob) { // РїР°СЂР°РјРµС‚СЂ РјРµС‚РѕРґР°
         return roundMark() == ob.roundMark();
     }
 }

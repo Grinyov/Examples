@@ -5,8 +5,8 @@ package inheritance;
  */
 public class RunnerAbst {
     public static void main(String[ ] args) {
-        AbstractCardAction action; // можно объявить ссылку
-// action = new AbstractCardAction(); нельзя создать объект!
+        AbstractCardAction action; // РјРѕР¶РЅРѕ РѕР±СЉСЏРІРёС‚СЊ СЃСЃС‹Р»РєСѓ
+// action = new AbstractCardAction(); РЅРµР»СЊР·СЏ СЃРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚!
         action = new CreditCardActionAbst();
         action.doPayment (100);
     }

@@ -4,11 +4,11 @@ package polymorphism;
  * Created by green on 21.07.2015.
  */
 public class SingleChoiceQuest extends AbstractQuest{
-    // поля, конструкторы и методы
+    // РїРѕР»СЏ, РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РјРµС‚РѕРґС‹
     @Override
     public boolean check(Answer ans) {
         System.out.println("Single choice quest");
-// проверка корректности ответа true или false
+// РїСЂРѕРІРµСЂРєР° РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚Рё РѕС‚РІРµС‚Р° true РёР»Рё false
         return true; // stub
     }
 }

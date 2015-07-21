@@ -4,15 +4,15 @@ package inheritance;
  * Created by green on 20.07.2015.
  */
 public class Dumber extends Dumb {
-    int id = 9; // получится два поля с одинаковыми именами
+    int id = 9; // РїРѕР»СѓС‡РёС‚СЃСЏ РґРІР° РїРѕР»СЏ СЃ РѕРґРёРЅР°РєРѕРІС‹РјРё РёРјРµРЅР°РјРё
     Dumber() {
-        System.out.println("конструктор класса Dumber ");
+        System.out.println("РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСЃР° Dumber ");
         id = this.getId();
         System.out.println(" id=" + id);
     }
     @Override
     int getId() { // 2
-        System.out.println("getId() класса Dumber ");
+        System.out.println("getId() РєР»Р°СЃСЃР° Dumber ");
         return id;
     }
 }

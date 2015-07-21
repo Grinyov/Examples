@@ -4,11 +4,11 @@ package inheritance;
  * Created by green on 21.07.2015.
  */
 public class CreditCardActionAbst extends AbstractCardAction {
-    // поля, конструкторы, методы
-    @Override // аннотация указывает на полиморфную природу метода
-// метод должен быть реализован в подклассе
-    public void doPayment(double amountPayment) { // переопределенный метод
-// реализация
+    // РїРѕР»СЏ, РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹, РјРµС‚РѕРґС‹
+    @Override // Р°РЅРЅРѕС‚Р°С†РёСЏ СѓРєР°Р·С‹РІР°РµС‚ РЅР° РїРѕР»РёРјРѕСЂС„РЅСѓСЋ РїСЂРёСЂРѕРґСѓ РјРµС‚РѕРґР°
+// РјРµС‚РѕРґ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СЂРµР°Р»РёР·РѕРІР°РЅ РІ РїРѕРґРєР»Р°СЃСЃРµ
+    public void doPayment(double amountPayment) { // РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ РјРµС‚РѕРґ
+// СЂРµР°Р»РёР·Р°С†РёСЏ
         System.out.println("complete from credit card!");
     }
 }

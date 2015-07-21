@@ -5,6 +5,6 @@ package inheritance;
  */
 public class BaseStatic {
     public static void go() {
-        System.out.println("метод из Base");
+        System.out.println("РјРµС‚РѕРґ РёР· Base");
     }
 }

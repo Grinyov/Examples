@@ -3,13 +3,13 @@ package enums;
 /**
  * Created by green on 18.07.2015.
  *
- * объявление перечисления с методом
+ * РѕР±СЉСЏРІР»РµРЅРёРµ РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ СЃ РјРµС‚РѕРґРѕРј
  */
 public enum Shape {
     RECTANGLE, TRIANGLE, CIRCLE;
-    // метод класса перечисления
+    // РјРµС‚РѕРґ РєР»Р°СЃСЃР° РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ
     public double defineSquare(double ... x) {
-// проверка параметров
+// РїСЂРѕРІРµСЂРєР° РїР°СЂР°РјРµС‚СЂРѕРІ
         switch (this) {
             case RECTANGLE:
                 return x[0] * x[1];

@@ -3,24 +3,24 @@ package oop;
 /**
  * Created by green on 18.07.2015.
  *
- * Демонстрирует параметризованные конструкторы и методы
+ * Р”РµРјРѕРЅСЃС‚СЂРёСЂСѓРµС‚ РїР°СЂР°РјРµС‚СЂРёР·РѕРІР°РЅРЅС‹Рµ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РјРµС‚РѕРґС‹
  */
 public class SimpleActionCourse {
 
-    public <T1 extends Course> SimpleActionCourse(T1 course) { // конструктор
-// реализация
+    public <T1 extends Course> SimpleActionCourse(T1 course) { // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
+// СЂРµР°Р»РёР·Р°С†РёСЏ
     }
-    public <T2> SimpleActionCourse() { // конструктор
-// реализация
+    public <T2> SimpleActionCourse() { // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
+// СЂРµР°Р»РёР·Р°С†РёСЏ
     }
     public <T3 extends Course> void calculateMark(T3 course) {
-// реализация
+// СЂРµР°Р»РёР·Р°С†РёСЏ
     }
     public <T4> void printReport(T4 course) {
-// реализация
+// СЂРµР°Р»РёР·Р°С†РёСЏ
     }
     public <T5> void check() {
-// реализация
+// СЂРµР°Р»РёР·Р°С†РёСЏ
     }
 
     public static void main(String[] args) {

@@ -5,9 +5,9 @@ package inheritance;
  */
 public class CardAction {
 
-    // поля, конструкторы, методы
+    // РїРѕР»СЏ, РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹, РјРµС‚РѕРґС‹
     public void doPayment(double amountPayment) {
-// реализация
+// СЂРµР°Р»РёР·Р°С†РёСЏ
         System.out.println("complete from debt card");
     }
 }

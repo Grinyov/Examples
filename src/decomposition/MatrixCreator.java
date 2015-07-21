@@ -3,9 +3,9 @@ package decomposition;
 /**
  * Created by green on 18.07.2015.
  *
- * Инициализация элементов матрицы различными способами вынесена в от-
- * дельный класс, методы которого могут в зависимости от условий извлекать
- * значения для инициализации элементов из различных источников.
+ * РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ СЌР»РµРјРµРЅС‚РѕРІ РјР°С‚СЂРёС†С‹ СЂР°Р·Р»РёС‡РЅС‹РјРё СЃРїРѕСЃРѕР±Р°РјРё РІС‹РЅРµСЃРµРЅР° РІ РѕС‚-
+ * РґРµР»СЊРЅС‹Р№ РєР»Р°СЃСЃ, РјРµС‚РѕРґС‹ РєРѕС‚РѕСЂРѕРіРѕ РјРѕРіСѓС‚ РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ СѓСЃР»РѕРІРёР№ РёР·РІР»РµРєР°С‚СЊ
+ * Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ РёРЅРёС†РёР°Р»РёР·Р°С†РёРё СЌР»РµРјРµРЅС‚РѕРІ РёР· СЂР°Р·Р»РёС‡РЅС‹С… РёСЃС‚РѕС‡РЅРёРєРѕРІ.
  *
  */
 public class MatrixCreator {
@@ -19,12 +19,12 @@ public class MatrixCreator {
                     int value = (int)(Math.random() * (end - start) + start);
                     t.setElement(i, j, value);
                 } catch (MatrixException e) {
-/* в данном случае exception невозможен, поэтому обработка отсутствует */
+/* РІ РґР°РЅРЅРѕРј СЃР»СѓС‡Р°Рµ exception РЅРµРІРѕР·РјРѕР¶РµРЅ, РїРѕСЌС‚РѕРјСѓ РѕР±СЂР°Р±РѕС‚РєР° РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ */
                 }
             }
         }
     }
-// public void fillFromFile(Matrix t, File f) { /* код*/ }
-// public void fillFromStream(Matrix t, InputStream input) { /* код*/ }
-// public void fillFromDataBase(Matrix t, Connection conn) { /* код*/ }
+// public void fillFromFile(Matrix t, File f) { /* РєРѕРґ*/ }
+// public void fillFromStream(Matrix t, InputStream input) { /* РєРѕРґ*/ }
+// public void fillFromDataBase(Matrix t, Connection conn) { /* РєРѕРґ*/ }
 }

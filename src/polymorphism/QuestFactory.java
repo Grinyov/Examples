@@ -4,7 +4,7 @@ package polymorphism;
  * Created by green on 21.07.2015.
  */
 public class QuestFactory {
-    // шаблон Factory Method (упрощенный)
+    // С€Р°Р±Р»РѕРЅ Factory Method (СѓРїСЂРѕС‰РµРЅРЅС‹Р№)
     public static AbstractQuest getQuestFromFactory(int mode) {
         switch (mode) {
             case 0:
@@ -13,8 +13,8 @@ public class QuestFactory {
                 return new SingleChoiceQuest();
             default :
                 throw new IllegalArgumentException("illegal mode");
-// assert false; // плохо
-// return null; // еще хуже
+// assert false; // РїР»РѕС…Рѕ
+// return null; // РµС‰Рµ С…СѓР¶Рµ
         }
     }
 }

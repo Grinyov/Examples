@@ -5,10 +5,10 @@ package inheritance;
  */
 public abstract class AbstractCardAction {
     private int id;
-    public AbstractCardAction() { // конструктор
+    public AbstractCardAction() { // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
     }
     // more methods
-    public boolean checkLimit() { // собственный метод
+    public boolean checkLimit() { // СЃРѕР±СЃС‚РІРµРЅРЅС‹Р№ РјРµС‚РѕРґ
         return true; // stub
     }
     public abstract void doPayment(double amountPayment);

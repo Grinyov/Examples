@@ -3,21 +3,21 @@ package inheritance;
 /**
  * Created by green on 20.07.2015.
  *
- * вызов нестатического final-метода из конструктора
+ * РІС‹Р·РѕРІ РЅРµСЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ final-РјРµС‚РѕРґР° РёР· РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
  */
 public class Coin {
     private double diameter;
-    // поля
+    // РїРѕР»СЏ
     public Coin(double diameter) {
         super();
-        initDiameter(diameter); // обращение к final-методу
+        initDiameter(diameter); // РѕР±СЂР°С‰РµРЅРёРµ Рє final-РјРµС‚РѕРґСѓ
     }
-    public final void initDiameter(double value) { // можно public final заменить на private
+    public final void initDiameter(double value) { // РјРѕР¶РЅРѕ public final Р·Р°РјРµРЅРёС‚СЊ РЅР° private
         if (value > 0) {
             diameter = value;
         } else {
-            System.out.println("Oтрицательный диаметр!");
+            System.out.println("OС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№ РґРёР°РјРµС‚СЂ!");
         }
     }
-// методы
+// РјРµС‚РѕРґС‹
 }
