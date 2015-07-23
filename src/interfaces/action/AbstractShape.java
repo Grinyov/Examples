@@ -9,6 +9,7 @@ package interfaces.action;
 public abstract class AbstractShape {
 
     private double a;
+    private double b;
     public AbstractShape(double a) {
         this.a = a;
     }

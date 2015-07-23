@@ -51,6 +51,9 @@
     <file url="file://$PROJECT_DIR$/src/inner/TeacherCreator.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/inner/TeacherLogic.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/inner/TeacherRunner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/interfaces/action/ActionMain.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/interfaces/action/IShapeAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/interfaces/action/ShapeMain.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/nested/Ship.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/nested/ShipRunner.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/oop/Course.java" charset="UTF-8" />

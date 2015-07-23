@@ -3,7 +3,8 @@ package interfaces.action;
 /**
  * Created by Grinyov Vitaliy on 22.07.15.
  */
-public interface IShapeAction extends ILineGroupAction{
+public interface IShapeAction <T extends AbstractShape> {
 
-    double computeSquare(AbstractShape shape);
+        double computeSquare(T shape);
+        double computePerimeter(T shape);
 }

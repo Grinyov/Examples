@@ -19,7 +19,7 @@ public class Triangle extends AbstractShape {
         return b;
     }
     public double getC() {
-        double c = // stub : вычисление по теореме косинусов
+        double c = b * Math.asin(angle); // stub : вычисление по теореме косинусов
         return c;
     }
 }

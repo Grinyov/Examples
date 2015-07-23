@@ -7,11 +7,12 @@ package interfaces.action;
  *
  * метод computeSquare() в данном абстрактном классе не реализован
  */
-public abstract class PentagonAction extends IShapeAction{
+public abstract class PentagonAction implements IShapeAction{
 
     // поля, конструкторы
     @Override
     public double computePerimeter(AbstractShape shape) {
 // проверка и вычисление периметра
+        return 0;
     }
 }
