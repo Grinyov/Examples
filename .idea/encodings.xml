@@ -25,6 +25,26 @@
     <file url="file://$PROJECT_DIR$/src/enums/ShapeRunner.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/enums/TaxiRunner.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/enums/TaxiStation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/Connector.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/ConnectorRunner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/FinallyDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/Mono.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/MonoTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/NestedTryCatchRunner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/PreciseRethrow.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/SameResource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/TwoExceptionAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/coin/Coin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/coin/CoinException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/coin/CoinLogicException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/coin/CoinTechnicalException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/coin/Runner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/construction/ConcreteResource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/construction/Resource.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/polymorph/BlackStone.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/polymorph/Stone.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/polymorph/StoneAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/exception/polymorph/WhiteStone.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/inheritance/AbstractCardAction.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/inheritance/BaseStatic.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/inheritance/BuildRunner.java" charset="UTF-8" />

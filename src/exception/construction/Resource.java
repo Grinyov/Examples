@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 /**
  * Created by green on 31.07.2015.
  */
-public class Resource { // ранее созданный класс
+public class Resource { // СЂР°РЅРµРµ СЃРѕР·РґР°РЅРЅС‹Р№ РєР»Р°СЃСЃ
     public Resource(String filename) throws FileNotFoundException {
 // more code
     }

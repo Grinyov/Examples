@@ -3,10 +3,10 @@ package exception.polymorph;
 /**
  * Created by green on 31.07.2015.
  */
-public class BlackStone extends Stone { // новый класс
+public class BlackStone extends Stone { // РЅРѕРІС‹Р№ РєР»Р°СЃСЃ
     @Override
-    public void build(String data) throws Exception { // ошибка компиляции
-        System.out.println("черный каменный шар");
-/* реализация*/
+    public void build(String data) throws Exception { // РѕС€РёР±РєР° РєРѕРјРїРёР»СЏС†РёРё
+        System.out.println("С‡РµСЂРЅС‹Р№ РєР°РјРµРЅРЅС‹Р№ С€Р°СЂ");
+/* СЂРµР°Р»РёР·Р°С†РёСЏ*/
     }
 }

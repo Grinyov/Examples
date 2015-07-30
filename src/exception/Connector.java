@@ -6,8 +6,8 @@ package exception;
 public class Connector {
     public static void loadResource(SameResource f) {
         if (f == null || !f.exists() || !f.isCreate()) {
-            throw new IllegalArgumentException(); /* генерация исключения */
-// или собственное, н-р, throw new IllegalResourceException();
+            throw new IllegalArgumentException(); /* РіРµРЅРµСЂР°С†РёСЏ РёСЃРєР»СЋС‡РµРЅРёСЏ */
+// РёР»Рё СЃРѕР±СЃС‚РІРµРЅРЅРѕРµ, РЅ-СЂ, throw new IllegalResourceException();
         }
 // more code
     }

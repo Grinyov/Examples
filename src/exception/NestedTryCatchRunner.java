@@ -3,22 +3,22 @@ package exception;
 /**
  * Created by green on 31.07.2015.
  *
- * вложенные блоки try-catch
+ * РІР»РѕР¶РµРЅРЅС‹Рµ Р±Р»РѕРєРё try-catch
  */
 public class NestedTryCatchRunner {
 
     public void doAction() {
-        try { // внешний блок
+        try { // РІРЅРµС€РЅРёР№ Р±Р»РѕРє
             int a = (int) (Math.random() * 2) - 1;
             System.out.println("a = " + a);
-            try { // внутренний блок
+            try { // РІРЅСѓС‚СЂРµРЅРЅРёР№ Р±Р»РѕРє
                 int b = 1/a;
                 StringBuilder sb = new StringBuilder(a);
             } catch (NegativeArraySizeException e) {
-                System.err.println("недопустимый размер буфера: " + e);
+                System.err.println("РЅРµРґРѕРїСѓСЃС‚РёРјС‹Р№ СЂР°Р·РјРµСЂ Р±СѓС„РµСЂР°: " + e);
             }
         } catch (ArithmeticException e) {
-            System.err.println("деление на 0: " + e);
+            System.err.println("РґРµР»РµРЅРёРµ РЅР° 0: " + e);
         }
     }
 }
