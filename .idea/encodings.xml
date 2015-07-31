@@ -12,6 +12,15 @@
     <file url="file://$PROJECT_DIR$/src/anonim/EnumRunner.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/anonim/WrapperRunnerAnonim.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/anonim/WrapperString.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/DemoGeneric.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/FindOrder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/Item.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/Order.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/Order2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/Order3.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/RunIterator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/UncheckCheckRun.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/collection/comparator/SortItemRunner.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/decomposition/BeginSolutionMatrix.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/decomposition/Matrix.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/decomposition/MatrixCreator.java" charset="UTF-8" />
@@ -103,5 +112,6 @@
     <file url="file://$PROJECT_DIR$/src/polymorphism/SingleChoiceQuest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/polymorphism/StudentDeepClon.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/polymorphism/TestAction.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
