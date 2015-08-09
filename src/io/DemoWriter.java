@@ -3,6 +3,7 @@ package io;
 import java.io.*;
 
 /**
+<<<<<<< Updated upstream
  * Created by Grinyov Vitaliy on 31.07.15.
  *
  * буферизованный вывод в файл
@@ -20,8 +21,10 @@ import java.io.*;
  с плавающей точкой.
  *
  */
+
 public class DemoWriter {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
         File f = new File("data\\res.txt");
         double[ ] v = { 1.10, 1.2, 1.401, 5.01, 6.017, 7, 8 };
         FileWriter fw = null;
@@ -38,7 +41,6 @@ public class DemoWriter {
             System.err.println("ошибка открытия потока " + e);
         } finally {
             if (pw != null) {
-
                 // закрывать нужно только внешний поток
                 pw.close();
             }
