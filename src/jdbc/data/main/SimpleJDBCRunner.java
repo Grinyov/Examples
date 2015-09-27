@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Properties;
+
+import jdbc.data.connect.ConnectorDB;
 import jdbc.data.subject.Abonent;
 
 /**
@@ -19,7 +21,8 @@ import jdbc.data.subject.Abonent;
  */
 public class SimpleJDBCRunner {
 
-    public static void main(String[ ] args) {
+    public static void main(String[ ] args) throws SQLException {
+        /*
         String url = "jdbc:mysql://localhost:3306/testphones";
         Properties prop = new Properties();
         prop.put("user", "root");
@@ -27,10 +30,11 @@ public class SimpleJDBCRunner {
         prop.put("autoReconnect", "true");
         prop.put("characterEncoding", "UTF-8");
         prop.put("useUnicode", "true");
+*/
         Connection cn = null;
-       // DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+        DriverManager.registerDriver(new com.mysql.jdbc.Driver());
         try { // 1 блок
-            cn = DriverManager.getConnection(url, prop);
+            cn = ConnectorDB.getConnection();//DriverManager.getConnection(url, prop);
             Statement st = null;
             try { // 2 блок
                 st = cn.createStatement();
