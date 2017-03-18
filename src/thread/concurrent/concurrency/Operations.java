@@ -54,6 +54,7 @@ public class Operations {
             }
         } else {
             System.out.println("Error waiting accounts, please try later");
+            acc1.incFailedTransferCount();
         }
 
     }
