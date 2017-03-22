@@ -13,9 +13,10 @@ import java.net.UnknownHostException;
  */
 public class EchoClient {
     // UDP port to which service is bound
-    public static final int SERVICE_PORT = 23;
+    private static final int SERVICE_PORT = 23;
     // Max size of packet
-    public static final int BUFSIZE = 256;
+    private static final int BUFSIZE = 256;
+
     public static void main(String args[]) throws IOException {
         if (args.length != 1)
         {
