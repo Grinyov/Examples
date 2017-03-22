@@ -12,9 +12,9 @@ import java.net.DatagramSocket;
 public class EchoServer {
 
         // UDP port to which service is bound
-        public static final int SERVICE_PORT = 23;
+        private static final int SERVICE_PORT = 23;
         // Max size of packet, large enough for almost any client
-        public static final int BUFSIZE = 4096;
+        private static final int BUFSIZE = 4096;
         // Socket used for reading and writing UDP packets
         private DatagramSocket socket;
         public EchoServer()
@@ -24,7 +24,7 @@ public class EchoServer {
 // Bind to the specified UDP port, to listen
 // for incoming data packets
                 socket = new DatagramSocket( SERVICE_PORT );
-                System.out.println ("Server active on port " +
+                System.out.println ("Server active and listen on port " +
                         socket.getLocalPort() );
             }
             catch (Exception e)
