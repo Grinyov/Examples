@@ -50,6 +50,7 @@ public class EchoServer {
 // Echo the packet back - address and port
 // are already set for us !
                     socket.send(packet);
+
                 } catch (IOException ioe) {
                     System.err.println("Error : " + ioe);
                 }

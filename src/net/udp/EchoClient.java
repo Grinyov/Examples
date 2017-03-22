@@ -62,6 +62,7 @@ public class EchoClient {
                         hostname);
 // Send the packet
                 socket.send (sendPacket);
+                long startCountTime = System.currentTimeMillis();
                 System.out.print ("Waiting for packet.... ");
 // Create a small packet for receiving UDP packets
                 byte[] recbuf = new byte[BUFSIZE];
@@ -81,9 +82,11 @@ public class EchoClient {
                 }
                 if (!timeout)
                 {
+                    long finishCountTime = System.currentTimeMillis();
                     System.out.println ("packet received!");
                     System.out.println ("Details : " +
                             receivePacket.getAddress());
+                    System.out.println("time delay - " + (finishCountTime - startCountTime));
 // Obtain a byte input stream to read the
 // UDP packet
                     ByteArrayInputStream bin = new
