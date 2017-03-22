@@ -6,11 +6,12 @@ import java.net.DatagramSocket;
 
 /**
  * Created by vgrinyov.
+ *
+ * The implementation of server which emulate host with open telnet using 23 port
  */
 public class EchoServer {
 
         // UDP port to which service is bound
-        // Use 23 port emulated host with open telnet
         public static final int SERVICE_PORT = 23;
         // Max size of packet, large enough for almost any client
         public static final int BUFSIZE = 4096;
